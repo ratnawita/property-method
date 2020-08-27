@@ -4,21 +4,10 @@ class produk{
 	public $merk = "dove";
 	public $harga = "32000";
 
-	/*public function sayHello(){
-		return "Hello RPL !";
-	}
-		*/
-
 	public function getCetak(){
 		return "$this->namaBarang, $this->merk, $this->harga";
 	}	
 }
-
-/*$produk1 = new produk();
-$produk1-> namaBarang = "sabun";
-var_dump($produk1);*/
-
-
 
 $produk2 = new produk();
 echo "Nama Barang 1: " . $produk2->getCetak();
